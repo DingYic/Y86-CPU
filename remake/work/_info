@@ -1,0 +1,241 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vdecode
+Z0 !s110 1676007787
+!i10b 1
+!s100 3PhSN3S6iOM3?mi[Km6=82
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I]D8K@G<]`e_K?40G6l3KM2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d//Mac/Home/Downloads/remake
+w1676005722
+8//Mac/Home/Downloads/remake/decode.v
+F//Mac/Home/Downloads/remake/decode.v
+!i122 153
+L0 2 159
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1676007787.000000
+!s107 define.v|//Mac/Home/Downloads/remake/decode.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Downloads/remake/decode.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vexecute
+R0
+!i10b 1
+!s100 fbkkR4o[[e;m:kf=alXaj2
+R1
+II4MSdFO?9LKV:bB;>he042
+R2
+R3
+w1675775373
+8//Mac/Home/Downloads/remake/execute.v
+F//Mac/Home/Downloads/remake/execute.v
+!i122 154
+L0 2 144
+R4
+r1
+!s85 0
+31
+R5
+!s107 define.v|//Mac/Home/Downloads/remake/execute.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Downloads/remake/execute.v|
+!i113 1
+R6
+R7
+vfetch
+R0
+!i10b 1
+!s100 S8<[eZ4332CJ:F]k8CVe@2
+R1
+IRZj@TW@4[L7ldPnR<<1173
+R2
+R3
+w1675771132
+8//Mac/Home/Downloads/remake/fetch.v
+F//Mac/Home/Downloads/remake/fetch.v
+!i122 151
+L0 3 133
+R4
+r1
+!s85 0
+31
+R5
+!s107 define.v|//Mac/Home/Downloads/remake/fetch.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Downloads/remake/fetch.v|
+!i113 1
+R6
+R7
+vmemory_access
+R0
+!i10b 1
+!s100 mQ4FhIZaFdOUNnf[4DJWg1
+R1
+IQU?F`KMP=0]K?1@39Fg]d1
+R2
+R3
+Z8 w1675858065
+Z9 8//Mac/Home/Downloads/remake/memory_access.v
+Z10 F//Mac/Home/Downloads/remake/memory_access.v
+!i122 155
+L0 2 75
+R4
+r1
+!s85 0
+31
+R5
+Z11 !s107 define.v|//Mac/Home/Downloads/remake/memory_access.v|
+Z12 !s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Downloads/remake/memory_access.v|
+!i113 1
+R6
+R7
+vram
+R0
+!i10b 1
+!s100 Bk6i`@o0loQ9o`Xf6[:]01
+R1
+I7^iz^Dhgf?UzHgloe;ROQ2
+R2
+R3
+R8
+R9
+R10
+!i122 155
+L0 78 109
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+R7
+vstat
+Z13 !s110 1676007788
+!i10b 1
+!s100 61;K?2?hcN8_?mXFDWe^a3
+R1
+IZLTN]OMfPD0^U@LlK:>`Z2
+R2
+R3
+Z14 w1676006209
+Z15 8//Mac/Home/Downloads/remake/writeback.v
+Z16 F//Mac/Home/Downloads/remake/writeback.v
+!i122 156
+L0 28 16
+R4
+r1
+!s85 0
+31
+Z17 !s108 1676007788.000000
+Z18 !s107 define.v|//Mac/Home/Downloads/remake/writeback.v|
+Z19 !s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Downloads/remake/writeback.v|
+!i113 1
+R6
+R7
+vtestbench
+R0
+!i10b 1
+!s100 j0Kh6_c^V2_P_f[BEc18d3
+R1
+ICSD3F]P@1mbh6BD?1BR5T1
+R2
+R3
+w1676007772
+8//Mac/Home/Downloads/remake/testbench.v
+F//Mac/Home/Downloads/remake/testbench.v
+!i122 152
+L0 4 134
+R4
+r1
+!s85 0
+31
+R5
+!s107 define.v|//Mac/Home/Downloads/remake/testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|//Mac/Home/Downloads/remake/testbench.v|
+!i113 1
+R6
+R7
+vupdate
+R13
+!i10b 1
+!s100 <d@ORN1m79hkb6QJBE`P11
+R1
+Ia>DSomb:ZU28IH4e_4>G?0
+R2
+R3
+w1676007211
+8\\Mac\Home\Downloads\remake\update.v
+F\\Mac\Home\Downloads\remake\update.v
+!i122 157
+L0 2 53
+R4
+r1
+!s85 0
+31
+R17
+!s107 define.v|\\Mac\Home\Downloads\remake\update.v|
+!s90 -reportprogress|300|-work|work|-stats=none|\\Mac\Home\Downloads\remake\update.v|
+!i113 1
+R6
+R7
+vwrite_back
+!s110 1676004700
+!i10b 1
+!s100 QN8fIG3102DScP]k4N>]F2
+R1
+ID_h1MPH;eZ7AGS[aTgl6[3
+R2
+R3
+w1676004408
+8\\Mac\Home\Downloads\remake\writeback.v
+F\\Mac\Home\Downloads\remake\writeback.v
+!i122 113
+Z20 L0 2 25
+R4
+r1
+!s85 0
+31
+!s108 1676004700.000000
+!s107 define.v|\\Mac\Home\Downloads\remake\writeback.v|
+!s90 -reportprogress|300|-work|work|-stats=none|\\Mac\Home\Downloads\remake\writeback.v|
+!i113 1
+R6
+R7
+vwriteback
+R13
+!i10b 1
+!s100 DjMnF5RF4>kQ0`6Rhz7zI1
+R1
+ICl:V_EmOYZO6R3JFlFZ:E1
+R2
+R3
+R14
+R15
+R16
+!i122 156
+R20
+R4
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 1
+R6
+R7

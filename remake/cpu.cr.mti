@@ -1,0 +1,56 @@
+//Mac/Home/Downloads/remake/testbench.v {1 {vlog -work work -stats=none //Mac/Home/Downloads/remake/testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} //Mac/Home/Downloads/remake/decode.v {1 {vlog -work work -stats=none //Mac/Home/Downloads/remake/decode.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module decode
+
+Top level modules:
+	decode
+
+} {} {}} //Mac/Home/Downloads/remake/writeback.v {1 {vlog -work work -stats=none //Mac/Home/Downloads/remake/writeback.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module writeback
+-- Compiling module stat
+
+Top level modules:
+	writeback
+
+} {} {}} //Mac/Home/Downloads/remake/memory_access.v {2 {vlog -work work -stats=none //Mac/Home/Downloads/remake/memory_access.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module memory_access
+-- Compiling module ram
+** Warning: //Mac/Home/Downloads/remake/memory_access.v(166): (vlog-2643) Unterminated string literal continues onto next line.
+
+Top level modules:
+	memory_access
+
+} {} {}} //Mac/Home/Downloads/remake/fetch.v {1 {vlog -work work -stats=none //Mac/Home/Downloads/remake/fetch.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fetch
+
+Top level modules:
+	fetch
+
+} {} {}} //Mac/Home/Downloads/remake/update.v {1 {vlog -work work -stats=none {\\Mac\Home\Downloads\remake\update.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module update
+
+Top level modules:
+	update
+
+} {} {}} //Mac/Home/Downloads/remake/define.v {1 {vlog -work work -stats=none //Mac/Home/Downloads/remake/define.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}} //Mac/Home/Downloads/remake/execute.v {1 {vlog -work work -stats=none //Mac/Home/Downloads/remake/execute.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module execute
+
+Top level modules:
+	execute
+
+} {} {}}

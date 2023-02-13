@@ -1,0 +1,708 @@
+# Compile of fetch.v was successful.
+# Compile of define.v was successful.
+# Compile of testbench.v failed with 2 errors.
+# Compile of decode.v was successful.
+# Compile of execute.v was successful.
+# Compile of memory_access.v was successful with warnings.
+# Compile of writeback.v was successful.
+# Compile of update.v was successful.
+# 8 compiles, 1 failed with 2 errors.
+# Compile of fetch.v was successful.
+# Compile of define.v was successful.
+# Compile of testbench.v was successful.
+# Compile of decode.v was successful.
+# Compile of execute.v was successful.
+# Compile of memory_access.v was successful with warnings.
+# Compile of writeback.v was successful.
+# Compile of update.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim work.testbench
+# vsim work.testbench 
+# Start time: 13:38:41 on Feb 10,2023
+# Loading work.testbench
+# Loading work.fetch
+# Loading work.decode
+# Loading work.execute
+# Loading work.memory_access
+# Loading work.ram
+# Loading work.writeback
+# Loading work.stat
+# Loading work.update
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'decode_stage'.  Expected 10, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/decode_stage File: //Mac/Home/Downloads/remake/testbench.v Line: 36
+# ** Warning: (vsim-3722) //Mac/Home/Downloads/remake/testbench.v(36): [TFMPC] - Missing connection for port 'valM_i'.
+# ** Warning: (vsim-3722) //Mac/Home/Downloads/remake/testbench.v(36): [TFMPC] - Missing connection for port 'valE_i'.
+run -all
+# PC=                   0	, icode=a	, ifun=0	, rA=2	, rB=f
+# valC=0000000000000008
+# valP=0000000000000002
+# 
+# valE_exe=fffffffffffffffc
+# nextpc=0000000000000002
+# valM_mem=0000000000000000
+# 
+# valE_wb=fffffffffffffffc
+# valM_wb=0000000000000000	
+# 
+# Stat=3	
+# PC=                  10	, icode=b	, ifun=0	, rA=4	, rB=f
+# valC=0000000000000015
+# valP=000000000000000c
+# 
+# valE_exe=000000000000000c
+# nextpc=0000000000000002
+# valM_mem=0b0a090807060504
+# 
+# valE_wb=000000000000000c
+# valM_wb=0b0a090807060504	
+# 
+# Stat=1	
+# PC=                  20	, icode=6	, ifun=2	, rA=6	, rB=5
+# valC=0000000000000012
+# valP=0000000000000016
+# 
+# valE_exe=0000000000000004
+# nextpc=0000000000000016
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000004
+# valM_wb=0000000000000000	
+# 
+# Stat=1	
+# PC=                  30	, icode=3	, ifun=0	, rA=f	, rB=8
+# valC=0000000000000008
+# valP=0000000000000028
+# 
+# valE_exe=0000000000000008
+# nextpc=0000000000000016
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000008
+# valM_wb=0000000000000000	
+# 
+# Stat=1	
+# PC=                  40	, icode=2	, ifun=2	, rA=2	, rB=5
+# valC=0000000000000012
+# valP=000000000000002a
+# 
+# valE_exe=0000000000000002
+# nextpc=000000000000002a
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=1	
+# PC=                  50	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=000000000000002a
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                  55	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                  64	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                  65	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                  66	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                 265	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                1024	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                   x	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# ** Note: $stop    : //Mac/Home/Downloads/remake/testbench.v(110)
+#    Time: 200 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at //Mac/Home/Downloads/remake/testbench.v line 110
+add wave -r sim:/testbench/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'decode_stage'.  Expected 10, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/decode_stage File: //Mac/Home/Downloads/remake/testbench.v Line: 36
+# ** Warning: (vsim-3722) //Mac/Home/Downloads/remake/testbench.v(36): [TFMPC] - Missing connection for port 'valM_i'.
+# ** Warning: (vsim-3722) //Mac/Home/Downloads/remake/testbench.v(36): [TFMPC] - Missing connection for port 'valE_i'.
+run -all
+# PC=                   0	, icode=a	, ifun=0	, rA=2	, rB=f
+# valC=0000000000000008
+# valP=0000000000000002
+# 
+# valE_exe=fffffffffffffffc
+# nextpc=0000000000000002
+# valM_mem=0000000000000000
+# 
+# valE_wb=fffffffffffffffc
+# valM_wb=0000000000000000	
+# 
+# Stat=3	
+# PC=                  10	, icode=b	, ifun=0	, rA=4	, rB=f
+# valC=0000000000000015
+# valP=000000000000000c
+# 
+# valE_exe=000000000000000c
+# nextpc=0000000000000002
+# valM_mem=0b0a090807060504
+# 
+# valE_wb=000000000000000c
+# valM_wb=0b0a090807060504	
+# 
+# Stat=1	
+# PC=                  20	, icode=6	, ifun=2	, rA=6	, rB=5
+# valC=0000000000000012
+# valP=0000000000000016
+# 
+# valE_exe=0000000000000004
+# nextpc=0000000000000016
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000004
+# valM_wb=0000000000000000	
+# 
+# Stat=1	
+# PC=                  30	, icode=3	, ifun=0	, rA=f	, rB=8
+# valC=0000000000000008
+# valP=0000000000000028
+# 
+# valE_exe=0000000000000008
+# nextpc=0000000000000016
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000008
+# valM_wb=0000000000000000	
+# 
+# Stat=1	
+# PC=                  40	, icode=2	, ifun=2	, rA=2	, rB=5
+# valC=0000000000000012
+# valP=000000000000002a
+# 
+# valE_exe=0000000000000002
+# nextpc=000000000000002a
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=1	
+# PC=                  50	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=000000000000002a
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                  55	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                  64	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                  65	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                  66	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                 265	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                1024	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                   x	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# ** Note: $stop    : //Mac/Home/Downloads/remake/testbench.v(110)
+#    Time: 200 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at //Mac/Home/Downloads/remake/testbench.v line 110
+# Compile of fetch.v was successful.
+# Compile of define.v was successful.
+# Compile of testbench.v was successful.
+# Compile of decode.v was successful.
+# Compile of execute.v was successful.
+# Compile of memory_access.v was successful with warnings.
+# Compile of writeback.v was successful.
+# Compile of update.v was successful.
+# 8 compiles, 0 failed with no errors.
+vsim work.testbench
+# End time: 13:43:19 on Feb 10,2023, Elapsed time: 0:04:38
+# Errors: 0, Warnings: 5
+# vsim work.testbench 
+# Start time: 13:43:19 on Feb 10,2023
+# Loading work.testbench
+# Loading work.fetch
+# Loading work.decode
+# Loading work.execute
+# Loading work.memory_access
+# Loading work.ram
+# Loading work.writeback
+# Loading work.stat
+# Loading work.update
+run -all
+# PC=                   0	, icode=a	, ifun=0	, rA=2	, rB=f
+# valC=0000000000000008
+# valP=0000000000000002
+# 
+# valE_exe=fffffffffffffffc
+# nextpc=0000000000000002
+# valM_mem=0000000000000000
+# 
+# valE_wb=fffffffffffffffc
+# valM_wb=0000000000000000	
+# 
+# Stat=3	
+# PC=                  10	, icode=b	, ifun=0	, rA=4	, rB=f
+# valC=0000000000000015
+# valP=000000000000000c
+# 
+# valE_exe=000000000000000c
+# nextpc=0000000000000002
+# valM_mem=0b0a090807060504
+# 
+# valE_wb=000000000000000c
+# valM_wb=0b0a090807060504	
+# 
+# Stat=1	
+# PC=                  20	, icode=6	, ifun=2	, rA=6	, rB=5
+# valC=0000000000000012
+# valP=0000000000000016
+# 
+# valE_exe=0000000000000004
+# nextpc=0000000000000016
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000004
+# valM_wb=0000000000000000	
+# 
+# Stat=1	
+# PC=                  30	, icode=3	, ifun=0	, rA=f	, rB=8
+# valC=0000000000000008
+# valP=0000000000000028
+# 
+# valE_exe=0000000000000008
+# nextpc=0000000000000016
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000008
+# valM_wb=0000000000000000	
+# 
+# Stat=1	
+# PC=                  40	, icode=2	, ifun=2	, rA=2	, rB=5
+# valC=0000000000000012
+# valP=000000000000002a
+# 
+# valE_exe=0000000000000002
+# nextpc=000000000000002a
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=1	
+# PC=                  50	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=000000000000002a
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                  55	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                  64	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                  65	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                  66	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                 265	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                1024	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                   x	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# ** Note: $stop    : //Mac/Home/Downloads/remake/testbench.v(110)
+#    Time: 200 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at //Mac/Home/Downloads/remake/testbench.v line 110
+add wave -r sim:/testbench/*
+restart
+run -all
+# PC=                   0	, icode=a	, ifun=0	, rA=2	, rB=f
+# valC=0000000000000008
+# valP=0000000000000002
+# 
+# valE_exe=fffffffffffffffc
+# nextpc=0000000000000002
+# valM_mem=0000000000000000
+# 
+# valE_wb=fffffffffffffffc
+# valM_wb=0000000000000000	
+# 
+# Stat=3	
+# PC=                  10	, icode=b	, ifun=0	, rA=4	, rB=f
+# valC=0000000000000015
+# valP=000000000000000c
+# 
+# valE_exe=000000000000000c
+# nextpc=0000000000000002
+# valM_mem=0b0a090807060504
+# 
+# valE_wb=000000000000000c
+# valM_wb=0b0a090807060504	
+# 
+# Stat=1	
+# PC=                  20	, icode=6	, ifun=2	, rA=6	, rB=5
+# valC=0000000000000012
+# valP=0000000000000016
+# 
+# valE_exe=0000000000000004
+# nextpc=0000000000000016
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000004
+# valM_wb=0000000000000000	
+# 
+# Stat=1	
+# PC=                  30	, icode=3	, ifun=0	, rA=f	, rB=8
+# valC=0000000000000008
+# valP=0000000000000028
+# 
+# valE_exe=0000000000000008
+# nextpc=0000000000000016
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000008
+# valM_wb=0000000000000000	
+# 
+# Stat=1	
+# PC=                  40	, icode=2	, ifun=2	, rA=2	, rB=5
+# valC=0000000000000012
+# valP=000000000000002a
+# 
+# valE_exe=0000000000000002
+# nextpc=000000000000002a
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=1	
+# PC=                  50	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=000000000000002a
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                  55	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                  64	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                  65	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                  66	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                 265	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                1024	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# PC=                   x	, icode=x	, ifun=x	, rA=x	, rB=x
+# valC=xxxxxxxxxxxxxxxx
+# valP=xxxxxxxxxxxxxxxx
+# 
+# valE_exe=0000000000000002
+# nextpc=xxxxxxxxxxxxxxxx
+# valM_mem=0000000000000000
+# 
+# valE_wb=0000000000000002
+# valM_wb=0000000000000000	
+# 
+# Stat=X	
+# ** Note: $stop    : //Mac/Home/Downloads/remake/testbench.v(110)
+#    Time: 200 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at //Mac/Home/Downloads/remake/testbench.v line 110
+# End time: 09:56:58 on Feb 12,2023, Elapsed time: 44:13:39
+# Errors: 0, Warnings: 1
